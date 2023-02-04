@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding-top: 50px;
+    max-width: 1300px;
+    /* padding: 100px 14%; */
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+body{
+    background: white;
+    color: black;
+}
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2 img{
+    padding: 0;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    width: 240px;
+    height: 46px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1.5px solid #dadada;
+}
+.single-product input{
+    margin-top: 7px;
+    width: 240px;
+    height: 40px;
+    padding-left: 18px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1.5px solid #dadada;
+}
+input:focus{
+    outline: none;
+}
+
+.single-product .uil{
+    margin-left: 10px;
+}
